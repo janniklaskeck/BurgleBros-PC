@@ -1,0 +1,100 @@
+# Game Rules
+You're a group of specialist burglars breaking into the Office building of a successful bank.
+You have to overcome all obstacles awaiting you inside the building without being caught by the guards.
+
+# Attention
+The rules of this game are almost exactly the same as of the tabletop game.
+Some were changed or omitted.
+
+## Controls
+All actions are controllable with the mouse.
+The main interaction is with the action bar at the lower edge of the screen.
+It contains the following actions, in order: Move, Peek, Use Room, Use Ability, Use Tool, End Turn.
+The Move and Peek actions additionaly have two smaller buttons above them for moving/peeking up or down.
+Other interactions are displayed in the middle of the screen.
+Camera movement is possible with WASD or moving the mouse to the window edges, zooming is controlled by the mouse wheel.
+Q and E allow moving between the different floors (down and up respectively).
+
+### Cheats
+Cheats are available via pressing F1 during gameplay.
+A small popup will display all cheat options.
+
+## Goal
+Crack all three safes and carry the loot up to the roof where you'll be extracted via helicopter.
+If any one player is caught by a guard, you have lost.
+
+## Turn Order
+The Turn Order consists of:
+1. Player Turn
+2. Check for Event
+3. Guard Turn
+
+### Player Turn
+Each burglar starts with 3 Stealth tokens at the beginning of the game.
+If the burglar moves into a room with a Guard (or vice-versa), he or she will lose one Stealth token.
+**If the burgler is supposed to lose a token but isn't possing another one the game is over and the player loses!**
+Each burglar starts with 4 actions which can be used in a few ways:
+
+#### Move
+Move from one room to another(not through walls).
+The target room will be revealed if it isn't already.
+Certain rooms, such as Laser or Walkway rooms, apply a certain effect when entering while being unrevealed(i.e. Laser room causes Alarm).
+If a Room contains Stairs(up or down) the burglar can also move in these directions.
+If a previously unvisited floor is entered, the guard for this floor will be revealed, including the initial patrol path.
+
+#### Peek
+Reveal an adjacent room without moving into it.
+Safer than directly moving into it but also slower,
+Room abilities are not triggered when revealing them via peeking.
+
+#### Crack Safe
+Safe rooms are the most important rooms for winning the game.
+Each Safe room has a unique combination which must be cracked by the burglars.
+The combination is based on the rooms which are in the same row or column as the safe.
+Each room contains a single number which together build the Safe combination.
+These rooms must be revealed to reveal their combination number.
+A Safe can only be cracked if the whole combination is known.
+
+##### Add die to safe
+Costs 2 actions. Adds a die to the safe, available for rolling the combination.
+
+##### Roll dice on safe
+Roll all dice available in the Safe room.
+If the number of any roll matches a number of the rooms responsible for the combination, this room number is considered cracked.
+This action can be used even if not all necessary rooms are revealed.
+If a number is already cracked and a new room is revealed with the same number, this number has to be rolled again.
+Rolled dice remain in the room and successful results are saved.
+
+###### Safe Cracked
+If the whole combination is rolled successfully the burglar responsible for this will receive one Loot item and draws a Tool.
+The Guard of the Safe's floor and all floors below gain one additional movement range permanently.
+
+#### Character Ability
+Each burgler is a specialist in his or her field.
+Some of these specializations are in the form of active abilities while others are passive.
+Depending on the ability, they'll cost an action or not.
+These abilities can only be used once per turn.
+
+#### Tools
+Using Tools costs no action and once used they are gone.
+Tools help the burglars to overcome the dangers in the building.
+
+### Check for Event Turn
+If any burglar ends his turn with two or more actions, he or she has to draw an Event.
+These Events can be good or bad (or do nothing) but they always bear a certain risk.
+
+### Guard Turn
+Once the possible Event is handled it's time for the Guard of the floor to move.
+Each guard has a certain movement range, ranging from two to six.
+They start with two for the first, three for the second and four for the third floor.
+Their patrol destinations are randomly drawn from a deck containing all rooms of the floor.
+If this deck is used up, they gain one additional movement, re-shuffle the deck and draw a new destination.
+This means a guard won't visit the same room again until the deck is re-shuffled.
+
+## Misc
+All Room, Event, Tool, Loot and burglar descriptions are available ingame.
+The burglar abilities can be seen when choosing the burglar group in the menu and when no room is selected/hovered ingame.
+Events are described when drawn.
+Tools are described when drawn and when opening the tool list.
+Carried Loot will be displayed on the right edge of the screen and will have a tooltip containg its description.
+Room functions can be seen when hovering/selecting them in the world.
